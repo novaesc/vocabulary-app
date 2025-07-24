@@ -1,0 +1,107 @@
+
+.card {
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+
+
+
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.search-bar {
+    background: linear-gradient(to right, #d8519d, #f16262);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  
+  .search-bar input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    
+  }
+  
+  .search-icon {
+    font-size: 1.30rem;
+    color: white;
+  }
+
+  .p{
+    font-size: 1.1rem;
+    color: #6c757d;
+
+  }
+
+  .app-wrapper {
+    padding: 1rem;
+  }
+  
+  .search-bar {
+    background: linear-gradient(to right, #d8519d, #f16262);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width: 100%;
+    flex-wrap: nowrap;
+    transition: all 0.3s ease;
+  }
+  
+  .search-bar input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .search-icon {
+    font-size: 1.25rem;
+    color: white;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+  }
+  
+  @media (max-width: 400px) {
+    .app-wrapper {
+      padding: 0.5rem;
+    }
+  
+    .search-bar {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 0.6rem 0.75rem;
+      gap: 0.5rem;
+      border-radius: 1.5rem;
+    }
+  
+    .search-bar input {
+      font-size: 0.85rem;
+      width: 100%;
+      padding: 0.4rem 0.75rem;
+    }
+  
+    .search-icon {
+      font-size: 1rem;
+      align-self: center;
+    }
+  
+    .subtitle {
+      font-size: 0.8rem;
+    }
+  
+    .card-body {
+      font-size: 0.88rem;
+    }
+  }
+  
+  
